@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>A product</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div class="branding">
+		<a href="http://nokia.mobi">
+		<img src="resources/images/img-logo.png" alt="Logo" />	
+		</a>
+			<p>Company Logo</p>
+			<p>Company Tagline</p>
+	</div>
+	</div>
+	<div id="content">
+		<!-- breadcrumbs -->
+		<ul class="breadcrumbs">
+			<li class="first"><a href="index.html">Home</a> &gt;</li>
+			<li><a href="http://nokia.mobi">Products</a> &gt;</li>
+			<li>Product name</li>
+		</ul>
+		<!-- photos -->
+		<h1>Product name</h1>
+		<img src="resources/images/layout/img-product-x.png" alt="product-x" />	
+		<p>Lorem ipsum dolor sit amet elit, consectetuer adipiscing elit, ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet elit, consectetuer adipiscing elit,  erat volutpat.</p>
+		<!-- collapsible features and reviews -->
+		<dl id="features" class="list-accordion">
+	    	<dt class="collapsed"><span></span>Features</dt>
+	    	<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+	    	<dt class="collapsed"><span></span>Reviews</dt>
+	    	<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+		</dl>
+		<!-- table -->
+		<h2>Specifications</h2>
+		<table>
+	  		<tr>
+	    		<th scope="col">Lorem</th>
+	    		<th scope="col">Ipsum</th>
+	 		</tr>
+		  		<tr>
+		    		<td>Lorem ipisum</td>
+		    		<td>Lorem ipisum</td>
+		  		</tr>
+		  		<tr class="odd">
+		    		<td>Lorem ipisum</td>
+		    		<td>Lorem ipisum</td>
+		  		</tr>
+		  		<tr>
+		    		<td>Lorem ipisum</td>
+		    		<td>Lorem ipisum</td>
+		  		</tr>
+		  		 <tr class="odd">
+		    		<td>Lorem ipisum</td>
+		    		<td>Lorem ipisum</td>
+		  		</tr>
+		</table>
+		<p class="link-more"><a href="http://forumnokia.mobi">More technical specifications &gt; &gt;</a></p>
+		<!-- Grid of design accents -->
+		<ul class="grid">
+			<li><img src="resources/images/layout/img-accent-x1.png" alt="accent-x1" /></li>
+			<li><img src="resources/images/layout/img-accent-x2.png" alt="accent-x2" /></li>
+			<li><img src="resources/images/layout/img-accent-x3.png" alt="accent-x3" /></li>
+		</ul>
+		<p>Lorem ipsum dolor sit amet elit, consectetuer adipiscing elit.</p>
+	<!-- back to top -->
+	<div class="top"><a href="#header">Back to top</a></div>
+	<!-- Banner -->
+		<img class="callout" src="resources/images/layout/img-in-the-box.png" alt="What's in the box?" />
+	<!-- Acessories -->
+	<h5 class="flush">Accessories</h5>
+		<ul class="list-graphical-inline stack">
+			<li><a href="http://forumnokia.mobi"><img src="resources/images/layout/img-tech1.png" alt="image" />Accessory</a></li>
+			<li><a href="http://nokia.mobi"><img src="resources/images/layout/img-tech2.png" alt="image" />Accessory</a></li>
+		</ul>
+	<p class="link-more"><a href="http://forumnokia.mobi">More accessories &gt; &gt;</a></p>
+	<!-- Related links -->
+	<h5>Related products</h5>
+		<ul class="bullet">
+			<li><a href="http://forumnokia.mobi">Line 1</a></li>
+			<li><a href="http://nokia.mobi">Line 2</a></li>
+		</ul>
+	<!-- store locator -->
+	<div id="block-store-locator">
+	<dl id="accordion" class="list-accordion">
+		<dt class="collapsed"><span></span>Store locator</dt>
+    	<dd>
+    	<form id="form1" method="post" action="">
+    	<fieldset>
+    	<select name="listMenu">
+			<option value="value1">Select country</option>
+			<option value="value2">Finland</option>
+			<option value="value3">United States</option>
+		</select>
+    	<label>City or town (optional)</label>
+		<input type="text" value="" />
+ 		<button value="submit" class="button-submit"><span>Submit</span></button>
+ 		</fieldset>
+ 		</form>
+    	</dd>
+	</dl>
+	</div>
+	<!-- Search -->
+	<div id="block-search">
+	<h5>Search</h5>
+	    <form id="form1" method="post" action="">
+    	<fieldset>
+    	<select name="listMenu">
+			<option value="value1">Products</option>
+			<option value="value1">Software</option>
+			<option value="value2">Devices</option>
+			<option value="value3">Services</option>
+		</select>
+		<input type="text" value="" />
+ 		<button value="submit" class="button-submit"><span>Search</span></button>
+ 		</fieldset>
+ 		</form>
+ 	</div>	
+	<!-- footer links -->
+	<ul class="nav-footer primary">
+			<li class="first"><a href="http://forumnokia.mobi">Products</a></li>
+			<li><a href="http://nokia.mobi">Technology</a></li>
+			<li class="last"><a href="http://forumnokia.mobi">Corporate</a></li>
+		</ul>
+	<div class="home"><a href="index.html">Home</a></div>
+	</div>
+	<div id="footer">
+		<ul class="nav-footer vertical">
+			<li><a href="http://forumnokia.mobi">Careers</a></li>
+			<li><a href="http://nokia.mobi">Press</a></li>
+			<li><a href="http://forumnokia.mobi">Store locator</a></li>
+			<li><a href="http://nokia.mobi">Contact</a></li>
+		</ul>
+			<p>&copy; 2009 Forum Nokia</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

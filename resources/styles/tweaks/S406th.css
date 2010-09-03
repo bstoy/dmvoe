@@ -1,0 +1,54 @@
+/*compensates for large font on S40 webkit devices*/
+body {
+	font-size: 90%;
+}
+table {
+	font-size: 80%;
+}
+/*creates 3 x 3 (portrait) grid on 240 px wide devices*/
+ul.grid li img{
+	border: 1px solid #BEC1C3;
+	padding: .15em .15em;
+	margin-right: .1em;
+	margin-left: 0em;
+	margin-bottom: .2em;
+}
+/*optional, may cascade too heavily in certain contexts*/
+ul li, ol li {
+	font-size: 95%;
+}
+ul.nav-horizontal-rounded, ul.nav-horizontal-flat  {
+	font-size: 95%;
+}
+
+/*LAYOUT SPECIFIC*/
+ul.primary {
+	background-color: #55B02B;
+	padding-top: 0em;
+	padding-bottom: .5em;
+	padding-left: 10px;
+	padding-right: .5em;
+	margin: 0px -10px;
+	height: 1em;
+	font-size: .7em;
+}
+ /*top search block*/
+div.search input.search-button {
+	border: none;
+	padding: 0.2em 0.2em ;
+	margin: .5em 0 0 0;
+	float: left;
+	width: inherit;
+	font-size: 70%;
+	height: 1.5em;
+}
+.search input[type='text'] {
+	float: left;
+	padding: 3px;
+	margin-left: .5em;
+	margin-right: .5em;
+	margin-top: .5em;
+	width: 55%;		
+	font-size: 90%;
+}
+/*END LAYOUT SPECIFIC*/

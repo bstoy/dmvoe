@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Non-touch Layouts: Corporate</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	</div>
+	<div id="content">
+	<h1>		<img src="resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<EMBED src="resources/videos/test.avi" width="200" height="200"></EMBED>
+	<ul class="list">
+		<li><a href="gewinnspiel.html">Gewinnspiel</a></li>
+		<li><a href="videos.html">Videos</a></li>
+		<li><a href="reference.html">Referenten</a></li>
+		<li><a href="affiliate.html">Partner</a></li>
+		<li><a href="impress.html">Impressum & Contact</a></li>
+	</ul>
+	</div>
+	<div id="footer" class="ft-small">
+	<p>&copy; 2010 yasssu.com</p>
+	</div>
+	</div>
+	</body>
+</html>
