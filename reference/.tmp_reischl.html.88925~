@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../reference.html">andere Referenten</a></div>
+		<h1>GMag. Gerald Reischl</h1>
+		<img src="../resources/images/layout/persons/gerald_reischl.jpeg" alt=" Gerald Reischl" />
+		<p>Ressortleiter, KURIER Redaktionsgesellschaft m.b.H. & Co. Kommanditgesellschaft<br/>
+
+Technik leben - so lautet seine Devise. Er ist Ressortleiter in der österreichischen Tageszeitung KURIER, wo er seit 1992 beschäftigt und für das “Digital"-Ressort und auch die digitale Berichterstattung in der "TV-Woche mit Techno" verantwortlich ist. Er ist Autor mehrer Bücher und war bis April 2009 Technologie-Experte des ORF in der Sendung Konkret (Hightech-Corner) und ist noch Technik-Experte bei ORF-Radio Wien. Im Mai 2008 wurde er mit dem österreichischen “New Media Award 2008" ausgezeichnet.
+
+Publikationen: Aktuelles Werk: Erfolgsfaktor Sinn - die Entdeckung der Zufriedenheit. Gemeinsames Buch mit dem Hamburger Soziologen Bernd Vonhoff über Sinn im Berufs- und auch Privatleben.
+Best- und Longseller: Die Google-Falle - die unkontrollierte Weltmacht im Internet
+Erstlingswerk Im Visier der Datenjäger - Bestseller 1998 - drei Monate Nr. 1 auf de Sachbuchliste. Das Buch, in dem es darum ging, wie wir Bürger durch Handys, Kundenkarten etc. überwacht werden können, löste in Österreich sogar parlamentarische Anfragen aus.
+Weitere Bücher:
+Der kleine Handyaner, Die mobile REvolution, Die größten Pechvögel des Jahrhunderts, Das vierte W, Gefährliche Netze, Die Glücksfalle, Unter Kontrolle, Der Internet-Insider
+
+		</p>
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

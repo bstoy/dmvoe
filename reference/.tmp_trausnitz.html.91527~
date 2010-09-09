@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../reference.html">andere Referenten</a></div>
+		<h1>MMag. Michael Trausnitz</h1>
+		<img src="../resources/images/layout/persons/micheal_trausnitz.gif" alt="Michael Trausnitz" />
+		<p>Leiter Marketingkommunikation, BMW Austria GmbH<br/>
+
+MMag. Michael Trausnitz ist seit August 2009 Leiter der Marketingkommunikation bei BMW Austria. Er begann bei BMW im Jahr 2002 mit der Vertriebs- und Marketingbetreuung von BMW Motorrad. Im Jahr 2006 übernahm er die Leitung des Fachbereichs CRM und Training für die Marken BMW und MINI und Vor seiner Tätigkeit für BMW war Michael Trausnitz Abteilungsleiter Marketing und Vertrieb für die Telesystem Tirol.
+Er studierte Internationale Wirtschaftswissenschaften und Wirtschaftspädagogik an der Leopold-Franzens-Universität in Innsbruck sowie an der Handelshögskolan in Göteborg. </p>		
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

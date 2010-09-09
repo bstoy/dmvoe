@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../affiliate.html">Partnerliste</a></div>
+		<div id="affiliate">	
+			<h1><img src="../resources/images/layout/sensix_logo.gif"/></h1>
+			<p><b>Sensix IT-Solutions GmbH und Sensix AG</b>, Storchengasse 1, 1150 Wien, Tel: +43/1/8972426-0, 
+			<a href="http://www.sensix.net">www.sensix.net</a>
+			</p>
+			<p>Sensix ist ein europäischer Full Service Provider für Customer-Relationship-Management (CRM). Das Unternehmen mit Standorten in Frankfurt, Hamburg, München, Wien und Zürich gehört heute zu den größten dedizierten CRM-Serviceanbietern im zentraleuropäischen Raum. Sensix betreut über 250 nationale und internationale Unternehmen in bis zu 24 Ländern bei deren CRM-Initiativen. Dazu zählen Unternehmen wie Saint Gobain, Eternit, Tiroler Tageszeitung, Sanova, Brenntag und die CRM-Award-Gewinner Lenzing, Energie Steiermark oder Die Johanniter-Unfall-Hilfe.
+Die Philosophie von Sensix war von Beginn an, die Erfahrungen aus den vielfältigen CRM-Initiativen der letzten Jahre zu nutzen, um mit neuen und effizienten Methoden sehr schnell nachhaltige Erfolge für ihre Kunden im Bereich des Kundenbeziehungsmanagements zu erreichen. 
+Sensix fokussiert sich auf mittelständische und internationale Unternehmen in Zentraleuropa und unterstützt diese in der gesamten Wertschöpfungskette des Kundenbeziehungsmanagements: vom Business Consulting zur Entwicklung von Strategien, über die Einführung der CRM-Softwarelösungen der Hersteller Microsoft, Oracle/Siebel, salesforce.com, SAP und update (sowie deren Software-as-a-Service-Produkten), von Datenmanagement und Erhöhung der Datenqualität bis hin zum kompletten Betrieb und Outsourcing der CRM-Anwendung.
+
+			</p>
+		</div>	
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

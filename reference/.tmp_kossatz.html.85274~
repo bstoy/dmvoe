@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../reference.html">andere Referenten</a></div>
+		<h1>Max Kossatz</h1>
+		<img src="../resources/images/layout/persons/max_kossatz.jpeg" alt="Max Kossatz" />
+		<p>CEO, Domsich, Kossatz & Steinberger Beratungs OG<br/>
+
+Max Kossatz war Mitte der 90er Jahre in New York federführend am Aufbau eines Internetproviders für Kulturschaffende beteiligt. Seit seiner Rückkehr nach Österreich war er in verschiedenen Aufsichtsrats-, Management- und Geschäftsführungspositionen im Bereich Internet, Mobile Services sowie Retail tätig. Studium an der Universität für Angewandte Kunst, Peter Weibel. Teilnehmer an verschiedenen nationalen und internationalen Ausstellungen, unter anderem der Biennale in Venedig. Max Kossatz ist seit 2005 Mitgründer, Mitbesitzer und Geschäftsführer der Domsich, Kossatz & Steinberger Beratungs OG und betreibt unter
+„Wissen belastet“ (http://wissenbelastet.com) einen privaten Weblog. Domsich, Kossatz & Steinberger Beratungs OG beschäftigt sich mit Markt und Meinungsbeobachtung im Internet durch Analyse von Webseiten, Foren, Blogs und Social Communities.
+</p>
+		
+
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../affiliate.html">Partnerliste</a></div>
+		<div id="affiliate">	
+			<img src="../resources/images/layout/brandmaker.png"/>
+			<p><b>BrandMaker GmbH</b>, D-76137 Karlsruhe, Rüppurrer Straße 1, Tel: +49-721-2012 519-24, 	<a href="http://www.brandmaker.com">www.brandmaker.com</a></p>
+			<p>Die BrandMaker GmbH mit Hauptsitz in Karlsruhe ist der führende Anbieter von Marketing Resource Management-Systemen (MRM) in Europa und beschäftigt europaweit rund 150 Mitarbeiter. 1999 gegründet, ist die BrandMaker GmbH ein Pionier im Bereich Marketing-Prozess-Optimierung. BrandMaker vermarktet bereits seit 2001 sein gleichnamiges MRM-System, das den Bedarf der Marketing- und Kommunikationsabteilungen großer, dezentral strukturierter Organisationen abdeckt. BrandMaker ist eine umfangreiche, modular aufgebaute MRM-Lösung, die die komplette Marketing-Prozesskette optimiert, das Marketing operativ entlastet und die Produktivität im Marketing deutlich steigert. BrandMaker Module gibt es unter anderem für die automatisierte Erstellung von Online- und Printmedien - letzteres per Web-to-Print -, für das Media Asset Management, die softwaregestützte Marketingplanung und die Markenstrategie. Das zweite zentrale Produkt der BrandMaker GmbH ist der BrandMaker Marketing Planer SaaS - die erste komplett webbasierte Marketing-Planungs-Software in Deutschland (www.marketing-zeitmaschine.de). Zu den namhaften Unternehmen, die die BrandMaker Lösungen in ihren Marketingabteilungen einsetzen, zählen unter anderen Commerzbank, DekaBank, Ernst & Young, EnBW, G+J EMS, Opel sowie Tirol Werbung.</p>
+			
+		</div>
+		<h1><a href="http://www.yasssu.com"><img src="../resources/images/layout/poweredby_grey.png" width="150px" alt="Logo" /></a></h1>
+
+	</div>
+
+
+	</div>
+	</body>
+</html>

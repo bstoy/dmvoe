@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../reference.html">andere Referenten</a></div>
+	<h3>Diplom Betriebswirt (FH) Alexander Garkisch</h3>
+		<img src="../resources/images/layout/persons/alexander_garkisch.jpeg" alt="Alexander Garkisch" />
+		<p>Director Account Management, BrandMaker GmbH<br/>
+
+Alexander Garkisch ist Director Account Management des Karlsruher Softwareunternehmens BrandMaker GmbH. Er ist seit mehr als vier Jahren für die Betreuung von Bestandskunden sowie die Neukundengewinnung verantwortlich. Die aus seiner vorherigen Tätigkeit als Kundenverantwortlicher bei verschiedenen Agenturen erlangte Expertise in Marketingprozessen bringt er seitdem bei BrandMaker ein. Als Etat Director bei der Stuttgarter Werbeagentur D,G,M. befasste er sich bereits intensiv mit dem Einsatz von Software zur Marketing-Prozess-Optimierung bei namhaften Kunden wie der Daimler AG. Langjährige Erfahrung in allen Bereichen der Marketingkommunikation sammelte er zuvor als Account Director bei der Agentur für Markenkommunikation und E-Business 21TORR, wo er u.a. die Mercedes-Benz Bank, Hewlett-Packard und
+s.Oliver betreute. 
+ </p>
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

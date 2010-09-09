@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../affiliate.html">Partnerliste</a></div>
+		<div id="affiliate">
+			<h1><img src="../resources/images/layout/pepper.png"/></h1>
+			<p><b>Pepper GmbH</b> 1030 Wien, Invalidenstrasse 1/11, Tel: +43/1/7130110-14,  
+			<a href="mailto:info@pepperglobal.com">info@pepperglobal.com</a>,
+			<a href="http://www.pepperglobal.com">www.pepperglobal.com</a>
+			</p>
+			<p>Pepper liefert ganzheitliche und integrierte Marketing- und Kommunikationslösungen: von der Strategie/Planung über die kreative Umsetzung bis zur Durchführung, Erfolgsmessung und kontinuierlichen Ausrichtung am Kunden- und Marktbedarf. Der geschlossene Prozess von Pepper ermöglicht es, alle Aktivitäten optimal aufeinander abzustimmen und so erfolgreiche und effiziente Gesamtergebnisse zu liefern. Die kreativen, zielgerichteten Kommunikationslösungen von Pepper basieren auf fundierten Datenanalysen, die entscheidende Informationen über Markt, Zielgruppen, Vertriebspartner, usw. liefern.
+Die 1998 gegründete Pepper GmbH beschäftigt insgesamt
+270 Mitarbeiter an zehn Standorten auf vier Kontinenten, davon
+200 am Hauptsitz in München. Pepper arbeitet länderübergreifend für internationale Kunden, wie z.B. Hewlett-Packard, Symantec, British Telecom (BT), Orange, British Petrol (BP) und Linde. Seit Januar 2004 gehört die Pepper GmbH als 100-prozentige Tochter zur Computershare Gruppe - einem führenden Unternehmen im Bereich Finanzdienstleistungen sowie Aktionärs- und Mitarbeiterkommunikation. Weltweit hat
+die Computershare Gruppe 10.000 Mitarbeiter und einen
+Kundenstamm von 14.000 Unternehmen.
+
+</p>
+		</div>	
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

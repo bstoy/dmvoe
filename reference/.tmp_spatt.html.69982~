@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../reference.html">andere Referenten</a></div>
+		<h1>Georg Spatt</h1>
+		<img src="../resources/images/layout/persons/georg_spatt.gif" alt="Georg Spatt" />
+		<p>Senderchef Ö3, ORF Radio Service GmbH
+
+Georg Spatt ist seit 1. Juni 1996 bei Ö3 mit der strategischen Programmplanung befasst. Im Frühjahr 1998 wurde Spatt stellvertretender Senderchef von Ö3. Nach dem Wechsel von Ö3-Senderchef Dr. Bogdan Roscic als General Manager zu Universal Music Österreich war Georg Spatt seit 1. Jänner 2002 mit der interimistischen Leitung von Ö3 betraut.
+Am 15. März 2002 wurde Spatt zum Ö3 Senderchef bestellt.
+Georg Spatt sammelte bereits während seines Studiums (Holzwirtschaft an der Universität für Bodenkultur) 1988 als freier redaktioneller Mitarbeiter bei Ö3 erste journalistische Erfahrungen. Von 1989 bis 1995 arbeitete Spatt bei verschiedenen Privat-Radio-Sendern. So unter anderem als Producer bei der "Antenne Austria" und als Programmdirektor bei "Radio CD".
+1991 gründete Georg Spatt nebenbei mit zwei Kollegen eine Werbeagentur ("ppi Werbeagentur GmbH"), die sich anfangs auf die Gestaltung und Produktion von akustischen Werbemedien konzentrierte, im Laufe der nächsten Jahre aber zu einer klassischen Full-Service Agentur ausgebaut wurde.</p>		
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

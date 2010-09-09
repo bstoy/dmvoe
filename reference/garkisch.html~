@@ -23,7 +23,7 @@
 	<div id="wrap">
 	<div id="header">
 	<div id="content">
-	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<h3><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h3>
 	<div class="home"><a href="index.html">Home</a></div>
 		
 	</div>

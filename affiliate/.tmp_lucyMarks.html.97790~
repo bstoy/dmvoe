@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../affiliate.html">Partnerliste</a></div>
+		<div id="affiliate">
+			<h1><img src="../resources/images/layout/lucy.png"/></h1>
+			<p><b>Lucy Marx</b> 2345 Brunn/Gebirge, Campus 21 | Businesspark Wien Süd, Liebermannstr. A01/405, Tel: +43/1/866 70/21050, 
+			<a href="www.lucymarx.com">www.lucymarx.com</a>
+			</p>
+			<p>Hey! Mein Name ist Lucy Marx. Ich sehe, dass Sie mein Team schon kennen gelernt haben - tolle Leute, nicht?
+Ich tue täglich mein Bestes, um ihnen Inspiration und Motivatorin zu sein - stell mich hinter Sie, bei allem was sie tun und vor sie, wenn sie eine Stimme brauchen.
+Meine Faszination und meinen professionellen Antrieb hab ich schon immer in der mobilen Welt gefunden. Jetzt ist es an der Zeit, Sie als Kunde von unserem Feuer und der gebündelten Erfahrung profitieren zu lassen. Mobile Applikationen, mobile Webseiten, Bluetooth Marketing, Mobile Couponing und vieles, vieles mehr.
+Wir freuen uns darauf, von Ihnen zu hören, wie wir Ihnen helfen können. 
+Melden Sie sich bei uns. Jederzeit</p>
+		</div>
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../affiliate.html">Partnerliste</a></div>
+		<div id="affiliate">
+			<h1><img src="../resources/images/layout/IQ.png"/></h1>
+			<p><b>IQ mobile GmbH</b> Taborstraße 20a Tür 5 1020 Wien Tel.: +43-1-32453366, 
+			<a href="www.iq-mobile.at ">www.iq-mobile.at </a>
+			</p>
+			<p>IQ mobile betreut als einer der erfolgreichsten Mobile Marketing-Player im Alpen- und Südosteuropa-Raum namhafte internationale Kunden wie Post, RZB, Nokia, BMW, sky, Almdudler und L'Oréal. Mit über 450 umgesetzten Kampagnen in mehr als 10 Ländern für über 150 Kunden ist IQ mobile Pionier im Mobile Advertising mit vollständigem mobilem Portfolio. Darüber hinaus sicherte IQ mobile für seine Kunden als Erster den Zugang zu allen Netzbetreiberportalen und den wesentlichen Off-net Portalen sowie mobilen Applikationen (z.B. iApps, OVI Apps, etc.) im Alpen- und Südosteuroparaum.
+			</p>
+
+		</div>		
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

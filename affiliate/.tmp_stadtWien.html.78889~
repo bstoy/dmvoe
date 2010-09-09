@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../affiliate.html">Partnerliste</a></div>		
+		<div id="affiliate">
+			<h1><img src="../resources/images/layout/wien.png"/></h1>
+			<p><b>stadt wien marketing gmbh</b>, 1090 Wien, Kolingasse 11/7, Tel. +43-1-319-82-00, 
+			<a href="http://www.wien-event.at">www.wien-event.at</a>
+			</p>
+			<p>Die stadt wien marketing gmbh wurde im März 1999 gegründet um im Auftrag der Stadt Wien Events in der Bundeshauptstadt zu unterstützen, zu fördern und durchzuführen. Das größte Anliegen dabei ist, Wien sowohl für die Wienerinnen und Wiener, als auch für alle in- und ausländischen Gäste stets attraktiv, lebens- und liebenswert zu machen.
+Neben den zahlreichen Eigenveranstaltungen (wie z. B. Film Festival, Wr. Weinpreis und Silvesterpfad) steht für das 14-köpfige Team auch die Kooperation mit anderen Veranstaltern im Vordergrund. Auf diese Weise gelingt es, das große kreative Potenzial vieler Engagierter umzusetzen und oder zu fördern beziehungsweise zu etablieren. Damit hat sich Wien zu einer Metropole mit unglaublich großem Angebot im öffentlichen Raum entwickelt.
+Events die Wien präg(t)en
+Mit rund 50 Veranstaltungen pro Jahr generiert die stadt wien marketing gmbh durchschnittlich 8 bis 10 Mio. Euro Umsatz, entwickelt ihre Veranstaltungen stetig weiter und geht mit den Trends der Zeit.
+Aber nicht nur für die großen Events ist die Agentur bekannt, sondern auch spezielle Veranstaltungen, wie der Weinwandertag, den Tierschutz Aktionstag, der Weihnachtsmarkt am Cobenzl, Präsentation der Vienna Region bei Fachmessen wie Real Vienna und Expo Real in München oder der SeniorInnentag sorgen bei der jeweiligen Zielgruppe für Begeisterung.</p>
+		</div>	
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

@@ -27,7 +27,7 @@ body {
 #content {
 	margin-left: 10px;
 	margin-right: 10px;
-
+	background-image: url(../images/dmvoecon.jpg);
 
 }
 
@@ -58,6 +58,9 @@ p  {
 	margin-top: 0.2em;
 	margin-bottom: 0.8em;
 	clear: both;
+	font-size:12px;
+	
+
 }
 #footer p {
 	color: #FFF;
@@ -78,15 +81,15 @@ em {
  * 
  */
 a:link {
-	color:#003399;
+	color: #000;
 }
 
 a:visited {
-	color:#006600;
+	color: #000;
 }
 
 a:hover {
-	color:#000;
+	color: #FF1111;
 }
 
 a:active {
@@ -417,7 +420,7 @@ ul.list li:hover {
 }
 
 ul.list a:link, ul.list a:visited  {
-	color: #333333;
+	color: #FF1111;
 }
 ul.list a:hover {
 	color: #FFFFFF;
@@ -1367,16 +1370,26 @@ img.callout {
 
 /* affiliate pix */
 #affiliate img{
-margin-bottom: 30px;
-width: 200px;
+width: 150px;
+}
+
+#affiliate li{
+margin-bottom:20px;
 }
 
 #reference dt{
 width: 150px;
+margin-left:70px;
+padding-bottom:30px;
 
 }
 
 #content p{
-width:200px;
+	width:320px;
+}
+
+#content img{
+	margin-left:70px;
+	
 }
 

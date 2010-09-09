@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../reference.html">andere Referenten</a></div>
+					
+					
+					<h1>Mag. Marco Harfmann</h1>
+		<img src="../resources/images/layout/persons/marco_harfmann.jpeg" alt="Marco Harfmann" />
+		<p>Bereichsleiter Residential & Small Business Marketing, A1 Telekom Austria AG<br/>
+
+Der studierte Handelswissenschafter verfügt über fundiertes Marketing- und Vertriebs-Know-how. Bevor Harfmann im November 2009 das Privatkundenmarketing übernahm, leitete er bei Fujitsu als Mitglied des Managementteams den Vertrieb für Südosteuropa. Zuvor zeichnete der gebürtige Niederösterreicher für Marketing- und Vertrieb bei Konica Minolta und Tele2 verantwortlich. Erste leitende Erfahrung sammelte Harfmann, der seine berufliche Karriere bei der Firma Unilever im Produktmanagement startete, von 1999 bis 2002 bei mobilkom austria im Produktmarketing Voice. Sein Studium an der Wirtschaftsuniversität Wien ergänzte Harfmann durch ein MBA-Programm an der University of Michigan. 
+ </p>
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>

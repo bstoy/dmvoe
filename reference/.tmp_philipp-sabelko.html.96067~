@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Partner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="../resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="../index.html">Home</a></div>
+	<div class="home"><a href="../reference.html">andere Referenten</a></div>
+			<h1>Daniela Philipp-Sabelko</h1>
+		<img src="../resources/images/layout/persons/daniela_philipp-sabelko.jpeg" alt="Daniela Philipp-Sabelko" />
+		<p>Geschäftsführerin, Philipp-Sabelko Consulting<br/>
+Daniela Philipp-Sabelko hat in ihrer über 20jährigen Tätigkeit als Werbe- und Marketingfachfrau in nationalen und internationalen Werbeagenturen (GGK, PKP Proximity, FCB, Wunderman) sowie auf Unternehmerseite (B&B innovations) als Mitglied der Geschäftsführung mit den Bereichen Leitung der Kundenberatung, strategische Planung und Personalentwicklung betraut. Seit 1999 arbeitet sie als Unternehmensberaterin, Lektorin, Trainerin und Coach. Ihr Beratungs- und Vortrags-schwerpunkt ist die intra- und inter-personelle Kommunikation. Ihre berufliche Erfahrung in Führungspositionen kombiniert mit ihrer profunden Trainer- und Coach-Ausbildung machen sie zur Expertin für die Bereiche Charisma, Leadership, Team und Branding/Positioning. Starker Praxis-Transfer unter Bezugnahme auf die eigene berufliche Erfahrung steht dabei im Mittelpunkt , unter dem Motto: „von Leuten aus der Wirtschaft für Leute aus der Wirtschaft“.
+Daniela Philipp-Sabelko ist diplomierte systemische Lehrtrainerin und Coach (nach Dachverbandskriterien des ÖDVNLP sowie der Trinergy-association) und Vizepräsidentin des DMVÖ (Dialogmarketing Verband Österreich). Als Vizepräsidentin des DMVÖ ist sie für Marketing & Sales sowie Aus- und Weiter-Bildung zuständig. Seit 2008 unterrichtet sie an der FH Wien im Rahmen des Marketing&Sales-Bachelor das Fach Werbung und Kommunikation/3tes Semester. Für diverse Bildungsveranstalter hält sie Vorträge und Workshops zum Thema Kommunikation.</p>	
+	</div>
+	<div id="footer">
+			<p>&copy; 2010 yasssu.com</p>
+		<div class="stack" />
+	</div>
+	</div>
+	</body>
+</html>
