@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>DMVÖ Congress</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	</div>
+
+
+	<div id="content" style="text-align:center;">
+	<h1><img src="resources/images/layout/logo_03.gif" alt="Logo"  /></h1>
+
+
+
+
+	<ul class="list">
+		<li><a href="programm.html">Programm</a></li>
+		<li><a href="videos.html">Videos</a></li>
+		<li><a href="affiliate.html">Partner</a></li>
+		<li><a href="gewinnspiel.html">Gewinnspiel</a></li>
+	</ul>
+			
+  	
+	<br />
+	<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+
+
+
+	<br />
+	<script>
+			new TWTR.Widget({
+			  version: 2,
+			  type: 'search',
+			  search: 'DMVOE10',  
+			  interval: 3000,
+			  title: 'LIVE-tweets',
+			  subject: 'DMVÖ',
+			  width: 'auto',
+			  height: 300,
+			  theme: {
+			    shell: {
+			      background: '#e12231',
+			      color: '#ffffff'
+			    },
+			    tweets: {
+			      background: '#ffffff',
+			      color: '#444444',
+			      links: '#e12231'
+			    }
+			  },
+			  features: {
+			    scrollbar: false,
+			    loop: false,
+			    live: true,
+			    hashtags: true,
+			    timestamp: true,
+			    avatars: true,
+			    toptweets: true,
+			    behavior: 'default'
+			  }
+			}).render().start();
+		</script>
+		<div id="footer2" style="text-align:center;">
+				<h1><p><a href="http://www.yasssu.com"><img src="resources/images/layout/poweredby_grey.png" width="110px" alt="Logo" /></a><a href="https://store.ovi.com/"><img src="resources/images/layout/ovi.png" width="110px" alt="Ovi App" /></a></p>
+						<p><a href="contact.html">Impressum und Kontakt</a></p></h1>
+		</div>
+
+		
+		
+	</div>
+
+
+	</div>
+	</body>
+</html>

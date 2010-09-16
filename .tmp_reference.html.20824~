@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Referenten</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+
+	<div id="wrap">
+	<div id="header">
+	</div>
+	<div id="content">
+			<h1><img src="resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+		<a name="top"></a>
+	<div class="home"><a href="index.html">Home</a></div>
+		<ul id="reference">
+			<li><a href="reference/ahamer.html">
+			<dd><img src="resources/images/layout/persons/ralf_ahamer.gif"/><dt>Ralf Ahamer</dt></a></dd></li>			
+			
+			<li><a href="reference/alzugaray.html">
+			<dd><img src="resources/images/layout/persons/pablo_alzugaray.jpeg"/><dt>Pablo Alzugaray</dt></a></dd></li>
+			
+			<li><a href="reference/bergh.html">
+			<dd><img src="resources/images/layout/persons/hana_bergh.jpeg"/><dt>Hana Bergh</dt></a></dd></li>
+			
+				<li><a href="reference/carrillo.html">
+			<dd><img src="resources/images/layout/persons/salvador_carrillo.jpeg"/><dt>Salvador Carrillo</dt></a></dd></li>
+				<li><a href="reference/garkisch.html">
+			<dd><img src="resources/images/layout/persons/alexander_garkisch.jpeg"/><dt>Alexander Garkisch</dt></a></dd></li>
+				<li><a href="reference/graf.html">
+			<dd><img src="resources/images/layout/persons/joachim graf.jpeg"/><dt>Joachim Graf</dt></a></dd></li>
+				<li><a href="reference/harfmann.html">
+			<dd><img src="resources/images/layout/persons/marco_harfmann.jpeg"/><dt>Marco Harfmann</dt></a></dd></li>
+				<li><a href="reference/hoellriegl.html">
+			<dd><img src="resources/images/layout/persons/karl_hoellriegl.jpeg"/><dt>Karl Höllriegl</dt></a></dd></li>
+				<li><a href="reference/jenzer.html">
+			<dd><img src="resources/images/layout/persons/anton_jenzer.jpeg"/><dt>Anton Jenzer </dt></a></dd></li>
+				<li><a href="reference/kossatz.html">
+			<dd><img src="resources/images/layout/persons/max_kossatz.jpeg"/><dt>Max Kossatz</dt></a></dd></li>
+				<li><a href="reference/mayer.html">
+			<dd><img src="resources/images/layout/persons/harald_mayer.jpeg"/><dt>Harald J. Mayer</dt></a></dd></li>
+				<li><a href="reference/oswald.html">
+			<dd><img src="resources/images/layout/persons/alexander_oswald.jpeg"/><dt>Alexander Oswald</dt></a></dd></li>
+				<li><a href="reference/philipp-sabelko.html">
+			<dd><img src="resources/images/layout/persons/daniela_philipp-sabelko.jpeg"/><dt>Daniela Philipp-Sabelko</dt></a></dd></li>
+				<li><a href="reference/poelzl.html">
+			<dd><img src="resources/images/layout/persons/georg_pölzl.jpeg"/><dt>Georg Pölzl</dt></a></dd></li>
+				<li><a href="reference/redmer.html">
+			<dd><img src="resources/images/layout/persons/jens_redmer.jpeg"/><dt>Jens Redmer</dt></a></dd></li>
+				<li><a href="reference/reischl.html">
+			<dd><img src="resources/images/layout/persons/gerald_reischl.jpeg"/><dt>Gerald Reischl</dt></a></dd></li>
+				<li><a href="reference/sallger.html">
+			<dd><img src="resources/images/layout/persons/thomas_sallger.jpeg"/><dt>Thomas Saliger</dt></a></dd></li>
+				<li><a href="reference/scherling.html">
+			<dd><img src="resources/images/layout/persons/daniel_scherling.jpeg"/><dt>Daniel Scherling</dt></a></dd></li>
+				<li><a href="reference/spatt.html">
+			<dd><img src="resources/images/layout/persons/georg_spatt.gif"/><dt>Georg Spatt</dt></a></dd></li>
+				<li><a href="reference/spahn.html">
+			<dd><img src="resources/images/layout/persons/hans_spahn.jpeg"/><dt>Hans Spohn</dt></a></dd></li>
+				<li><a href="reference/stoecher.html">
+			<dd><img src="resources/images/layout/persons/mathias_stoecher.jpeg"/><dt>Matthias Stöcher</dt></a></dd></li>
+				<li><a href="reference/stummvoll.html">
+			<dd><img src="resources/images/layout/persons/christoph_stummvoll.gif"/><dt>Christoph Stummvoll</dt></a></dd></li>
+				<li><a href="reference/trausnitz.html">
+			<dd><img src="resources/images/layout/persons/micheal_trausnitz.gif"/><dt>Michael Trausnitz</dt></a></dd></li>
+				<li><a href="reference/von_vietinghoff.html">
+			<dd><img src="resources/images/layout/persons/christian.jpeg"/><dt>Christian von Vietinghoff</dt></a></dd></li>
+				<li><a href="reference/weng.html">
+			<dd><img src="resources/images/layout/persons/dieter_weng.gif"/><dt>Dieter Weng</dt></a></dd></li>
+				<li><a href="reference/winkelhofer.html">
+			<dd><img src="resources/images/layout/persons/harald_winkelhofer.jpeg"/><dt>Harald Winkelhofer</dt></a></dd></li>
+				<li><a href="reference/zadina.html">
+			<dd><img src="resources/images/layout/persons/markus_zadina.jpeg"/><dt>Markus Zadina</dt></a></dd></li>
+				<li><a href="reference/zelmanovic_perl.html">
+			<dd><img src="resources/images/layout/persons/florian_zelmanovic-perl.gif"/><dt>Florian Zelmanovics-Perl</dt></a></dd></li>
+		</ul>
+		<div class="top"><a href="#">To the Top</a></div>
+
+
+			<h1><a href="http://www.yasssu.com"><img src="resources/images/layout/poweredby_grey.png" width="150px" alt="Logo" /></a></h1>
+
+	</div>
+
+
+	</div>
+	</body>
+</html>

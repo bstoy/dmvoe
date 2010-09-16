@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Videos</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="index.html">Home</a></div>
+		<h1>Videos</h1>
+		<p>Teaser DMVÖ Congress	</p>
+		<a>
+		<video tabindex="0" controls="controls" id="videoPlayer" width="320" height="180" poster="resources/videos/poster.png" >
+			<source src="resources/videos/dmvoe_web.ogv" type="video/ogg">
+			<source src="rtsp://188.40.140.205/dmvoe/dmvoe_mobile.3gp" type="video/3gpp" media="handheld">
+			<source src="resources/videos/dmvoe_web.mp4" type="video/mp4">  
+		</video>
+		</a>
+  		<p style="font-size:8px">Download (<a href="rtsp://188.40.140.205/dmvoe/dmvoe_mobile.3gp">Ogg</a> or <a href="resources/videos/dmvoe_web.mp4">MP4</a>)</p>
+
+	
+
+		<div id="footer2">
+				<h1><p><a href="http://www.yasssu.com"><img src="resources/images/layout/poweredby_grey.png" width="110px" alt="Logo" /></a><a href="https://store.ovi.com/"><img src="resources/images/layout/ovi.png" width="110px" alt="Ovi App" /></a></p></h1>
+		</div>
+	</div>
+
+
+	</div>
+	</body>
+</html>

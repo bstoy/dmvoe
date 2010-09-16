@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Programm</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="resources/styles/reset.css" rel="stylesheet" type="text/css" />
+		<link href="resources/styles/baseStyles.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../resources/scripts/templates.js"></script>
+		<script type="text/javascript">
+			function init() {
+				var myAccordionList = new AccordionList(["accordion","features"]);
+				var myStyleTweaks = new StyleTweaker();
+				myStyleTweaks.add("Series60/3.2", "resources/styles/tweaks/S603rdFP2.css");
+				myStyleTweaks.add("AppleWebKit/420+", "resources/styles/tweaks/S406th.css");
+				myStyleTweaks.add("Opera Mini/4", "resources/styles/tweaks/operamini.css");
+				myStyleTweaks.tweak();
+			}
+			addEvent("onload",init);
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="header">
+	<div id="content">
+	<h1><img src="resources/images/layout/logo_03.gif" alt="Logo" />	</h1>
+	<div class="home"><a href="index.html">Home</a></div>
+	<div id="programm">
+		<h1>Programm</h1>
+		
+		<h2>8.30<p> <b>Warm up Breakfast</b> powered by Tchibo<br />
+		
+		durch den Tag führt <a href="reference/philipp-sabelko.html">Daniela Philipp-Sabelko</a>
+		</p></h2>
+		
+		<h2>9.00 <p><b>Eröffnung</b><br />
+		<a href="reference/jenzer.html">Anton Jenzer</a>,
+		<a href="reference/weng.html">Dieter Weng</a>,
+		<a href="reference/zelmanovics_perl.html">Florian Zelmanovics-Perl</a>
+		</p></h2>
+		
+		<h2>9.15 <p><b>Keynote 1 -
+		Online und Offline schlagkräftig kombinieren – Veränderungen und Chancen in einem traditionellen Geschäftsfeld</b><br />
+		<a href="reference/poelzl.html">Georg Pölzl</a>
+		</p></h2>
+		
+		<h2>9.45 <p><b>Diskussionsrunde
+		"Future happens" DIALOG MARKETING 2010 - Was bleibt, was kommt?</b><br />
+		moderiert von <a href="reference/zelmanovics_perl.html">Florian Zelmanovics-Perl</a><br />
+		Es diskutieren u.a.
+		<a href="reference/jenzer.html">Anton Jenzer</a>,
+		<a href="reference/mayer.html">Harald J. Mayer</a>,
+		<a href="reference/poelzl.html">Georg Pölzl</a>,
+		<a href="reference/saliger.html">Thomas Saliger</a>,
+		<a href="reference/spatt.html">Georg Spatt</a>
+		</p></h2>
+		
+		<h2>10.30<p> Kaffeepause powered by Tchibo<br />
+		<img style="width:80px; margin-left:70px" src="resources/images/icons/coffee.png"/><br />
+		Onlinemarketing
+		</p></h2>
+		
+		<h2>11.00 <p><b>Conversion Marketing</b><br />
+		<a href="reference/graf.html">Joachim Graf</a>
+		</p></h2>
+		
+		<h2>11.30 <p><b>Google`s Sicht auf die Dialog Zukunft</b><br />
+		<a href="reference/redmer.html">Jens Redmer</a><br />
+		
+		<i>Dialog in Österreich</i>
+		</p></h2>
+		
+		<h2>12.00 <p><b>Von der Idee zur Umsetzung mit optimierten Marketing-Prozessen</b><br />
+		<a href="reference/garkisch.html">Alexander Garkisch</a>
+		</p></h2>
+		
+		<h2>12.20 <p><b>Beschwerdemanagement als elementarer Bestandteil von Kundenbindung</b><br />
+		<a href="reference/scherling.html">Daniel Scherling</a>,
+		<a href="reference/bergh.html">Hana Bergh</a>
+		</p></h2>
+		<h2>12.40<p><b> Networking Lunch</b><br />
+		
+		<i>CRM & Loyality</i>
+		</p></h2>
+		
+		<h2>13.45 <p><b>Best Practice bei CRM und Kundenbindung</b><br />
+		<a href="reference/trausnitz.html">Michael Trausnitz</a>
+		</p></h2>
+		
+		<h2>14.05<p><b> Auswirkungen von Social Media auf das CRM von heute und morgen</b><br />
+		<a href="reference/von_vietinghoff.html">Christian von Vietinghoff</a>
+		
+		<i>Mobile Marketing powered by Mobile Marketing Association Austria</i>
+		</p></h2>
+		
+		<h2>14.25<p> Keynote 2
+		<b>Über kreative Möglichkeiten von Mobile Advertising und –Marketing</b><br />
+		<a href="reference/carrillo.html">Salvador Carrillo</a>
+		</p></h2>
+		
+		<h2>14.50 <p><b>Mobile Marketing – Vom Gadget zum Dialog Marketing Tool</b><br />
+		<a href="reference/oswald.html">Alexander Oswald</a>
+		</p></h2>
+		
+		<h2>15.10<p> <b>Diskussionsrunde
+		Marketing in der mobilen Welt</b><br />
+		moderiert von <a href="reference/reischl.html">Gerald Reischl</a><br />
+		Es diskutieren u.a.
+		<a href="reference/harfmann.html">Marco Harfmann</a>,
+		<a href="reference/oswald.html">Alexander Oswald</a>,
+		<a href="reference/stoecher.html">Matthias Stöcher</a>,
+		<a href="reference/stummvoll.html">Christoph Stummvoll</a>,
+		<a href="reference/winkelhofer.html">Harald Winkelhofer</a>
+		</p></h2>
+		
+		<h2>15.50<p> Kaffepause powered by Tchibo<br />
+		<img style="width:80px;margin-left:70px;" src="resources/images/icons/coffee.png"/><br />
+		</p></h2>
+		
+		<h2>16.20<p> <b>Diskussionsrunde
+		Wer virtuell nicht exisitiert, existiert auch real bald nicht mehr</b><br />
+		moderiert von Dominik Stürz<br />
+		Es diskutieren u.a.
+		<a href="reference/ahamer.html">Ralf Ahamer</a>,
+		Judith Denkmayr,
+		<a href="reference/hoellriegl.html">Karl Höllriegl</a>,
+		<a href="reference/kossatz.html">Max Kossatz</a>,
+		<a href="reference/spohn.html">Hans Spohn</a>
+		</p></h2>
+		
+		<h2>17.00<p> Keynote 3
+		<b>Best Practice – Dialog Marketing Weltklasse</b><br />
+		<a href="reference/alzugaray.html">Pablo Alzugaray</a>
+		</p></h2>
+		
+		<h2>17.45<p><b> DMVÖ Wrap up</b>
+		moderiert von <a href="reference/philipp-sabelko.html">Daniela Philipp-Sabelko</a> und <a href="reference/zadina.html">Markus Zadina</a>
+		</p></h2>
+		
+		<h2>ab 18.00<p>
+		<b>Dialog Network Lounge</b> powered by Horizont
+		</p></h2>
+		<div class="top"><a href="#">To the Top</a></div>
+	</div>	
+			<h1><a href="http://www.yasssu.com"><img src="resources/images/layout/poweredby_grey.png" width="150px" alt="Logo" /></a></h1>
+
+	</div>
+
+
+	</div>
+	</body>
+</html>

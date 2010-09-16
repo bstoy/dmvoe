@@ -27,8 +27,6 @@ body {
 #content {
 	margin-left: 10px;
 	margin-right: 10px;
-	background-image: url(../images/dmvoecon.jpg);
-
 }
 
 
@@ -89,11 +87,11 @@ a:visited {
 }
 
 a:hover {
-	color: #FF1111;
+	color: #e12231;
 }
 
 a:active {
-	color:#990000;
+	color:#e12231;
 }
 /*
  * NATIVE LISTS
@@ -406,12 +404,13 @@ ul.list li {
 	background: #F6F6F6 url(../images/sprite-list.png) repeat-x top;
 	line-height: 40px;
 	display: block;
+	font-size: 150%;
 }
 ul.list a {
 	padding-left: 10px;
 	display: block;
 	height: 40px;
-	background: url(../images/sprite-open.png) no-repeat right top;
+
 	text-decoration: none;
 }
 ul.list li:hover {
@@ -420,11 +419,11 @@ ul.list li:hover {
 }
 
 ul.list a:link, ul.list a:visited  {
-	color: #FF1111;
+ color: #e12231;
 }
 ul.list a:hover {
 	color: #FFFFFF;
-	background: url(../images/sprite-open.png) no-repeat right bottom;
+
 	outline: none;
 }
 ul.list a:active {
@@ -565,6 +564,7 @@ div.home a {
 	text-decoration: none;
 	width: 100%;
 	display: block;
+text-align: left;
 }
 
 /*
@@ -1019,21 +1019,19 @@ input[type='button'] {
  * 
  */
 table {
-	border: 1px solid #D8D8D8;
+
 	margin: 0;
-	width: 100%;
+	
 	color: #333333;
 	vertical-align: top;
 }
 
 td {
-	border-bottom: 1px solid #D8D8D8;
-	border-right: 1px solid #D8D8D8;
 	padding-left: .3em;
 	padding-right: .3em;
 	padding-top: .2em;
 	padding-bottom: .2em;
-	line-height: 1.5em;
+	
 }
 tr {
 	height: 1.5em;
@@ -1062,10 +1060,7 @@ caption {
 		background: #F6F6F6;
 }
 
-tr:hover {
-		background: #82CB20 url(../images/sprite-table-hover.png) repeat-x top;
-		color: #FFF; 
-}
+
 /*
  * 8. FLEXIBLE CONTAINERS
  * 
@@ -1371,25 +1366,38 @@ img.callout {
 /* affiliate pix */
 #affiliate img{
 width: 150px;
+text-align: center;
 }
 
 #affiliate li{
 margin-bottom:20px;
+text-align: center;
 }
 
 #reference dt{
-width: 150px;
-margin-left:70px;
+
+text-align: center;
 padding-bottom:30px;
 
 }
+
+#reference {
+text-align: center;
+}
+
+
 
 #content p{
 	width:320px;
 }
 
 #content img{
-	margin-left:70px;
-	
 }
 
+#footer2 {
+text-align: center;
+}
+
+#gewinnspiel p{
+text-align: center;
+}
